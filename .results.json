@@ -1,0 +1,220 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 10,
+    "passes": 0,
+    "pending": 0,
+    "failures": 10,
+    "start": "2022-07-09T18:50:18.896Z",
+    "end": "2022-07-09T18:50:19.377Z",
+    "duration": 481
+  },
+  "tests": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "The 'currentUser' variable must contain a string: expected undefined to be a string",
+        "showDiff": false,
+        "stack": "AssertionError: The 'currentUser' variable must contain a string: expected undefined to be a string\n    at Context.<anonymous> (test/indexTest.js:4:85)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains \"WELCOME TO FLATBOOK, \"",
+      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:25:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "excitedWelcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at Context.<anonymous> (test/indexTest.js:29:48)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading 'toUpperCase')"
+      }
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:35:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "excitedWelcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:41:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shortGreeting is not defined"
+      }
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at Context.<anonymous> (test/indexTest.js:45:39)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading '0')"
+      }
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:53:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shortGreeting is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "The 'currentUser' variable must contain a string: expected undefined to be a string",
+        "showDiff": false,
+        "stack": "AssertionError: The 'currentUser' variable must contain a string: expected undefined to be a string\n    at Context.<anonymous> (test/indexTest.js:4:85)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:11:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:15:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: welcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:19:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "welcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains \"WELCOME TO FLATBOOK, \"",
+      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:25:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "excitedWelcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading 'toUpperCase')\n    at Context.<anonymous> (test/indexTest.js:29:48)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading 'toUpperCase')"
+      }
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: excitedWelcomeMessage is not defined\n    at Context.<anonymous> (test/indexTest.js:35:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "excitedWelcomeMessage is not defined"
+      }
+    },
+    {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:41:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shortGreeting is not defined"
+      }
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of undefined (reading '0')\n    at Context.<anonymous> (test/indexTest.js:45:39)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "Cannot read properties of undefined (reading '0')"
+      }
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:53:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "shortGreeting is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
